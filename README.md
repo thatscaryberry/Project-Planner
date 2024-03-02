@@ -1,2 +1,4 @@
-# Small-Projects
-Just some small projects I made for fun and/or school
+# Project Planner
+This ia school project I did. The following is the prompt: You are overseeing a group of consultants, and every week you must decide on a project for them to tackle. Imagine there are n weeks, and for week i, you must choose between allocating a standard project with a profit of \( l_i \), an intensive project with a profit of \( h_i \), or take a break.
+
+The twist is that if you opt for an intensive project in week i, you must ensure no project was assigned in week \( i - 1 \) to give your team ample time for preparation. Your challenge is to devise a plan, given a list of profits \( L = [l_1, l_2, ..., l_n] \) and \( H = [h_1, h_2, ..., h_n] \), where you select between undertaking the standard project, the intensive project, or taking a break each week, yielding a profit of \( l_k \), \( h_k \), or 0, respectively, aiming to create a schedule that maximizes the total profit.
